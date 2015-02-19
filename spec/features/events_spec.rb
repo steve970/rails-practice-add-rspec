@@ -31,7 +31,7 @@ feature 'creates Events' do
     click_on 'gSchool'
     click_on 'Show all events'
   end
-
+  
   scenario 'Deletes the Event' do
     Event.create(description:'gSchool')
     visit root_path
